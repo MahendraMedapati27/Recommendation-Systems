@@ -124,3 +124,7 @@ Cosine similarity measures the similarity between two vectors of an inner produc
 Hybrid recommendation systems combine multiple recommendation techniques to provide more accurate and diverse recommendations. They leverage the strengths of both collaborative filtering and content-based filtering approaches.
 
 ![Hybrid-recommendation-model](https://github.com/MahendraMedapati27/Recommendation-Systems/assets/153280887/9e2e0e36-ffca-4ebc-b7ea-8a28b2374a00)
+
+## Datasets
+** Content_Based_Recommendation **
+[Book Recommendation System](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
