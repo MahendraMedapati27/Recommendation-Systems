@@ -53,7 +53,7 @@ We use centered cosine similarity (or Pearson similarity), where ratings are nor
 
 Let rx be the vector of user x’s ratings. Let N be the set of k similar users who also rated item i. Then we can calculate the prediction of user x and item i using the following formula:
 
-r_{xi} = \frac{\sum_{y \in N}S_{xy}r_{yi}}{\sum_{y \in N}S_{xy}} \, \, S_{xy} = sim(x,y)
+r_{xi} = \frac{\sum_{y \in N}S_{xy}r_{yi}}{\sum_{y \in N}S_{xy}} \quad \text{where } S_{xy} = \text{sim}(x,y)
 
 ## Advantages and Disadvantages
 
@@ -108,6 +108,8 @@ The user profile is a vector that describes the user's preferences. It is create
 **Disadvantages:**
 - Finding the appropriate features can be challenging.
 - Does not recommend items outside the user's profile.
+
+[Link to know more about Content Based Filtering](https://medium.com/@zbeyza/recommendation-systems-content-based-filtering-e19e3b0a309e#:~:text=Content%2DBased%20Filtering%20is%20one,features%20of%20a%20product%2Fservice.)
 
 ## Cosine similarity
 Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis
