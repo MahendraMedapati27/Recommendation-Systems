@@ -53,7 +53,8 @@ We use centered cosine similarity (or Pearson similarity), where ratings are nor
 
 Let rx be the vector of user x’s ratings. Let N be the set of k similar users who also rated item i. Then we can calculate the prediction of user x and item i using the following formula:
 
-r_{xi} = \frac{\sum_{y \in N}S_{xy}r_{yi}}{\sum_{y \in N}S_{xy}} \quad \text{where } S_{xy} = \text{sim}(x,y)
+r\_{xi} = \frac{\sum\_{y \in N}S\_{xy}r\_{yi}}{\sum\_{y \in N}S\_{xy}} \quad \text{where } S\_{xy} = \text{sim}(x,y)
+
 
 ## Advantages and Disadvantages
 
