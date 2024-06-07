@@ -127,4 +127,6 @@ Hybrid recommendation systems combine multiple recommendation techniques to prov
 
 ## Datasets
 **Content_Based_Recommendation:**
--[Book Recommendation System](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
+[Movie Recommendation System](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+[Music Recommendation System](https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset)
