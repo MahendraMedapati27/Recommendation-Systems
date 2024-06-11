@@ -15,6 +15,7 @@ There are several types of recommendation systems, including:
 1. Collaborative Filtering
 2. Content-Based Filtering
 3. Hybrid Recommendation Systems
+4. Popularity Based Recommendation Systems
 
 ## Collaborative Filtering
 
@@ -124,6 +125,55 @@ Cosine similarity measures the similarity between two vectors of an inner produc
 Hybrid recommendation systems combine multiple recommendation techniques to provide more accurate and diverse recommendations. They leverage the strengths of both collaborative filtering and content-based filtering approaches.
 
 ![Hybrid-recommendation-model](https://github.com/MahendraMedapati27/Recommendation-Systems/assets/153280887/9e2e0e36-ffca-4ebc-b7ea-8a28b2374a00)
+
+# Popularity-Based Recommendation System
+
+## Overview
+A popularity-based recommendation system recommends items to users based on the overall popularity of the items. This approach is simple and effective, especially when user-specific data is scarce. It typically involves ranking items based on certain popularity metrics such as the number of ratings, the average rating, or the number of purchases.
+
+## How It Works
+1. **Data Collection**: Gather data on items, such as ratings, views, purchases, or any other metric that indicates popularity.
+2. **Ranking Items**: Calculate a popularity score for each item. This can be done in various ways, such as:
+    - Total number of ratings
+    - Average rating score
+    - Total number of purchases
+    - A weighted combination of the above metrics
+3. **Recommendation**: Sort the items based on their popularity score and recommend the top-ranked items to all users.
+
+## Advantages
+- **Simplicity**: Easy to implement and understand.
+- **No User Data Required**: Can provide recommendations without needing extensive user-specific data.
+- **Scalability**: Works well even with large datasets.
+
+## Disadvantages
+- **Lack of Personalization**: Does not consider individual user preferences or behavior.
+- **Popularity Bias**: Tends to promote already popular items, potentially overlooking niche items.
+
+## Example Implementation
+Here’s an example of how to implement a popularity-based recommendation system using Python and Pandas:
+
+```python
+import pandas as pd
+
+# Sample data
+data = {
+    'Book-Title': ['Book1', 'Book2', 'Book3', 'Book4', 'Book5'],
+    'Ratings': [150, 200, 50, 80, 120],
+    'Average-Rating': [4.5, 4.0, 3.5, 4.2, 4.1]
+}
+
+# Creating a DataFrame
+df = pd.DataFrame(data)
+
+# Calculate a popularity score (e.g., total number of ratings)
+df['Popularity-Score'] = df['Ratings']
+
+# Sort the DataFrame based on the popularity score
+popular_books = df.sort_values(by='Popularity-Score', ascending=False)
+
+# Display the top 5 popular books
+print(popular_books[['Book-Title', 'Popularity-Score']].head())
+
 
 ## Datasets
 
