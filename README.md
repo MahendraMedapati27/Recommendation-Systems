@@ -190,4 +190,5 @@ print(popular_books[['Book-Title', 'Popularity-Score']].head())
 **Popularity_Based_Recommendation_System:**
 
 - [Book_Recommendation_System](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
+- [Restaurant_Recommendation_System](https://www.kaggle.com/datasets/deewakarchakraborty/zomato-restaurant-dataset)
   
