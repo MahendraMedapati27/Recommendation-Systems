@@ -175,9 +175,17 @@ popular_books = df.sort_values(by='Popularity-Score', ascending=False)
 print(popular_books[['Book-Title', 'Popularity-Score']].head())
 
 
-## Datasets
+# Datasets
 
 **Content_Based_Recommendation:**
 
 - [Movie Recommendation System](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 - [Music Recommendation System](https://www.kaggle.com/datasets/notshrirang/spotify-million-song-dataset)
+
+**Collaborative_Based_Filtering:**
+
+- [Book_Recommendation_System](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
+
+**Popularity_Based_Recommendation_System:**
+
+- [Book_Recommendation_System](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
