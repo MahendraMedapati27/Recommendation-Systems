@@ -185,7 +185,9 @@ print(popular_books[['Book-Title', 'Popularity-Score']].head())
 **Collaborative_Based_Filtering:**
 
 - [Book_Recommendation_System](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
+- [Anime_Recommendation_System](https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database)
 
 **Popularity_Based_Recommendation_System:**
 
 - [Book_Recommendation_System](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
+  
