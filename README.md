@@ -174,7 +174,7 @@ popular_books = df.sort_values(by='Popularity-Score', ascending=False)
 # Display the top 5 popular books
 print(popular_books[['Book-Title', 'Popularity-Score']].head())
 
-
+```
 # Datasets
 
 **Content_Based_Recommendation:**
